@@ -2,4 +2,7 @@ a= input ('geef je score:')
 
 if  int(a) > 15:
     print('Gefeliciteerd')
-    print('Met een score van 18 ben je geslaagd!')
+    print('Met een score van '+a+' ben je geslaagd!')
+else:
+    print('je bent niet geslaagd')
+
