@@ -5,7 +5,7 @@ def new_pasword(oudwachtwoord, nieuwwachtwoord):
     if oudwachtwoord != nieuwwachtwoord and len(nieuwwachtwoord)>=6:
         antwoord=(True )
     else:
-        print(False)
+        antwoord=(False)
     return antwoord
 
 
