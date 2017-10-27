@@ -16,7 +16,7 @@ with open('inloggers.csv', 'w', newline='')as myCSVFile:
 
         datumstr=''
 
-    with open(bestand, 'a')as inloggersFile:
+
         try:
             waarde=(naam, voorl, gbdatum, email)
             writer= csv.writer(inloggersFile)

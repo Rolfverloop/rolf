@@ -4,7 +4,7 @@ bestand= 'artikelen.csv'
 
 try:
     with open(bestand) as productFile:
-        reader=csv.reader(productFile, delimiter=';')
+        reader = csv.DictReader(productFile, delimiter=';')
 
         totaal=0
         artikelnummer=''
